@@ -24,13 +24,21 @@ li::before {
   color: #E84A5F;
 }
 
+.col-40 p{
+  background-color: #b62a25;
+  border-radius: 20px;
+  padding: 2%;  
+  color: antiquewhite;
+  font-family: 'Chango', cursive;
+}
+
 .col-40, .col-60 {
   display: table-cell;
   margin: 0;
   vertical-align: top;
 }
 .col-40 {
-  background: #FFF;
+  background:#34738f	;
   padding: 30px;
   color: #000;
 }
@@ -56,4 +64,22 @@ li::before {
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+
+#juego {
+  height: 600px;
+  width: 600px;
+  background-color: red;
+}
+
+.piezas img {
+  border: 1px solid black;
+  width: 198px;
+  float: left;
+  
+}
+
+#objetivo img {
+  width: 200px;
+  height: 200px;
 }
