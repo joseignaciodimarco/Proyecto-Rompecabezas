@@ -6,14 +6,17 @@ body {
   min-height: 100%;
   background-image: url(../images/adventure.jpg);
 }
+
 ul {
   padding-left: 0;
   list-style: none;
 }
+
 li {
   padding: 5px 0;
   animation: fadein 5s;
 }
+
 li::before {
   content: "• ";
   color: #EC6778;
@@ -25,11 +28,16 @@ li::before {
 }
 
 .col-40 p{
-  background-color: #b62a25;
-  border-radius: 20px;
   padding: 2%;  
   color: antiquewhite;
   font-family: 'Chango', cursive;
+}
+
+#titulo {
+  background-color: #b62a25;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .col-40, .col-60 {
@@ -41,11 +49,11 @@ li::before {
   background:#34738f	;
   padding: 30px;
   color: #000;
+  width: 40%;
 }
 
 .col-60 {
   background: #E84A5F;
-
 }
 
 #flecha{
@@ -70,16 +78,29 @@ li::before {
   height: 600px;
   width: 600px;
   background-color: red;
+  
 }
 
 .piezas img {
   border: 1px solid black;
   width: 198px;
   float: left;
-  
 }
 
 #objetivo img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
+
+#footer {
+  clear: both;
+  background-color: dimgray;
+  width: 100%;
+  text-align: center;
+}
+
+#footer p {
+  font-style: oblique;
+}
+
+
