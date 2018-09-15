@@ -134,7 +134,6 @@ function moverEnDireccion(direccion) {
     }
 }
 
-
 //////////////////////////////////////////////////////////
 ////////A CONTINUACIÓN FUNCIONES YA IMPLEMENTADAS.////////
 /////////NO TOCAR A MENOS QUE SEPAS LO QUE HACES//////////
